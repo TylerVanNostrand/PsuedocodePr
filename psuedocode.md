@@ -13,7 +13,6 @@ INIT: Creat Variables for Program
     Spoon
 
   # Functionality: I need to make a cup of coffee in order to wake myself up all the way
-
   Add coffee filter to coffee machine
   Add coffee to filter
   Add water to coffee machine
@@ -26,12 +25,26 @@ INIT: Creat Variables for Program
   Enjoy
 
   # Objects
- 
  * Coffee Machine
- * Coffee grounds
-    * Coffee Can (if > 0)
+ * Coffee grounds (if > 0)
  * Coffee Filter
     * Filter Pack (if > 0)   
- * Water
+ * Water (if < 8oz)
  * Coffee Pot = 1
  * Coffee Cup (if > 0)    
+
+ # Numbers, Strings, Booleans, Arrays, Functions
+ * Coffee Machine
+    * Start Button
+    * Container for Coffee Filter
+    * Water Resevoir
+    * Coffee Pot
+ * Alarm
+    * Beep once coffee has finished brewing
+
+# Start Brewing Program
+INIT ()
+    1. User inserts Coffee Filter
+    2. User inserts Coffee Grounds into Coffee Filter ( <.25cups)
+    3. User inserts Water into Water Resevoir ( <8oz) 
+    4. User presses Start Button   
