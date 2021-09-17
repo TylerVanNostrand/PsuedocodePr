@@ -7,8 +7,6 @@
     Coffee Pot
     Coffee machine
     Coffee Cup
-    Cream
-    Spoon
 
   # Functionality: I need to make a cup of coffee in order to wake myself up all the way
   Add coffee filter to coffee machine
